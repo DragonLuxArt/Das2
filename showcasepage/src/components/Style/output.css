@@ -22,8 +22,7 @@ nav .navContainer div:hover {
 
 footer {
   display: flex;
-  background-color: black;
-  border-top: 2px black solid;
+  background-image: linear-gradient(to bottom right, #0B4343, silver);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -39,6 +38,7 @@ footer .footContainer div {
   display: inline-flex;
   padding: 0 120px 0 305px;
   margin-left: 130px;
+  font-size: 1.3em;
 }
 
 .App {

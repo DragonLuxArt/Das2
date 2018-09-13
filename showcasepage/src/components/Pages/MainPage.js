@@ -5,10 +5,6 @@ class Main extends Component {
   render() {
     return (
         <div className="mainPage">
-         
-          
-             
-          
         </div>
     );
   }
