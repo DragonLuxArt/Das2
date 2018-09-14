@@ -29,13 +29,24 @@ footer
   color: white
   align-items: center
   .footContainer
-    padding: 0 0 0 120px
-    text-align: center
+    display: inline-flex
     div
-      display: inline-flex
-      padding:0 120px 0 305px
-      margin-left: 130px
       font-size: 1.3em
+      margin-left: 50px
+    .icons
+      position: absolute
+      right: 0
+      font-size: 1.6em 
+      margin-right: 50px
+      a
+        text-decoration: none
+        color: white
+        margin-left: 5px
+      a:hover
+        color: black
+      
+ 
+      
 
 
 .App
@@ -43,8 +54,18 @@ footer
   background-image: url('../Content/images/freestyle_wallpaper.jpg')
   background-size: cover
   background-repeat: no-repeat
+  background-position: center
   min-height: 100vh
-  width: 100%
+  max-width: 100%
   //filter: blur(2px)
+  .titleMain
+    position: absolute
+    text-align: center
+    display: flexbox
+    color: white
+    font-family: "Poppins", sans-serif
+    font-weight: 600
+    font-size: 6em
+    text-align: center
 
   
