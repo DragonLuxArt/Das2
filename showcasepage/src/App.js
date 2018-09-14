@@ -15,7 +15,7 @@ library.add(fab, faCheckSquare, faCoffee);
 class App extends Component {
   // fake authentication Promise
   authenticate() {
-    return new Promise(resolve => setTimeout(resolve, 2000));
+    return new Promise(resolve => setTimeout(resolve, 4000));
   }
 
   componentDidMount() {
@@ -31,7 +31,6 @@ class App extends Component {
       }
     });
   }
-
   render() {
     return (
       <Router>

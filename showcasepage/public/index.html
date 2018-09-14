@@ -19,18 +19,28 @@
       padding: 0;
       width: 100%;
     }
-    
+
     body {
       font-family: 'Roboto', sans-serif;
       font-size: 13px;
       -webkit-font-smoothing: antialiased;
     }
 
-    .loadingTitle{
+    .loadingTitle {
       text-align: center;
       font-size: 6em;
       font-weight: 600;
       color: white;
+      text-shadow: 2px 2px 2px black;
+    }
+
+    .imThinking {
+      position: absolute;
+      top: 60%;
+      left: 45%;
+      font-size: 2em;
+      font-weight: 600;
+      color: rgb(24, 203, 182);
       text-shadow: 2px 2px 2px black;
     }
 
@@ -223,6 +233,7 @@
     -->
   <title>React App</title>
 </head>
+
 <body>
   <noscript>
     You need to enable JavaScript to run this app.
@@ -234,6 +245,7 @@
     </div>
     <div class="insp-logo-frame">
       <h1 class="loadingTitle">Your Life Your Freestyle</h1>
+      <h2 class="imThinking">I am thinking...</h1>
     </div>
   </div>
   <div id="root"></div>
