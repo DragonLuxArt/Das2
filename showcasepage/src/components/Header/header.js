@@ -10,7 +10,7 @@ class header extends Component {
           <div className="navContainer">
           <div><Link to="/">Home</Link></div>
           <div><Link to="/About">Profile</Link></div>
-          <div><Link to="/LoadingScreen">Contact</Link></div>          
+          <div><Link to="/Contact">Contact</Link></div>          
           </div>
         </nav>
       </div>
