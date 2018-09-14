@@ -6,6 +6,7 @@ class Main extends Component {
     return (
       <div className="mainPage">
         <div className="titleMain">Freestyle Football</div>
+        <div className="subtitleMain">The Way of Living</div>
       </div>
     );
   }
