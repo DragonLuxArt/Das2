@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Header from "./components/Header/header";
 import Footer from "./components/Footer/footer";
 import MainPage from "./components/Pages/MainPage";
-import Profile from "./components/Pages/About";
+import About from "./components/Pages/About";
 import Contact from "./components/Pages/Contact";
 import "./components/Style/output.css";
 import ReactDOM from "react-dom";
@@ -35,7 +35,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Route exact path="/" component={MainPage} />
-          <Route exact path="/About" component={Profile} />
+          <Route exact path="/About" component={About} />
           <Route exact path="/Contact" component={Contact} />
           <Footer />
         </div>

@@ -89,4 +89,28 @@ footer .footContainer .icons a:hover {
   align: center;
 }
 
+.About h1 {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+  text-align: justify;
+  text-align-last: center;
+  background-image: linear-gradient(to bottom right, #0000, black);
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
 /*# sourceMappingURL=output.css.map */
