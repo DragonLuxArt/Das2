@@ -113,4 +113,33 @@ footer .footContainer .icons a:hover {
   transition: opacity 0.5s ease-in;
 }
 
+.Contact h1 {
+  position: absolute;
+  top: 32%;
+  left: 25%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+  text-align: justify;
+  text-align-last: center;
+  background-image: linear-gradient(to bottom right, #0000, black);
+}
+.Contact p {
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+  text-align: justify;
+  text-align-last: center;
+  background-image: linear-gradient(to bottom right, #0000, black);
+}
+
 /*# sourceMappingURL=output.css.map */
