@@ -9,8 +9,9 @@ class footer extends Component {
         <footer>
           <div className="footContainer">
             <div>All rights reserved</div>
+            <div> DAS Katarzyna Kwiczala :: 43-426 Dębowiec Gumna ul. Beskidzka 53 </div>
             <div className="icons">
-            <a href="#">
+            <a href="https://www.facebook.com/AUTOBUSY.DAS/">
               <FontAwesomeIcon icon={["fab", "facebook"]} />
             </a>
             <a href="#">

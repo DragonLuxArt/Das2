@@ -22,10 +22,8 @@ class App extends Component {
     this.authenticate().then(() => {
       const ele = document.getElementById("ipl-progress-indicator");
       if (ele) {
-        // fade out
         ele.classList.add("available");
         setTimeout(() => {
-          // remove from DOM
           ele.outerHTML = "";
         }, 2000);
       }

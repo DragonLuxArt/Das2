@@ -4,8 +4,8 @@ class Main extends Component {
   render() {
     return (
       <div className="mainPage">
-        <div className="titleMain">Freestyle Football</div>
-        <div className="subtitleMain">The Way of Living</div>
+        <div className="titleMain">Z nami do celu!</div>
+        <div className="subtitleMain">Zawsze z Dasem</div>
       </div>
     );
   }

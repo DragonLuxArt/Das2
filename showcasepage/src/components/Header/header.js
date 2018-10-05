@@ -8,9 +8,9 @@ class header extends Component {
       <div className="header">
         <nav>
           <div className="navContainer">
-          <div><Link to="/">Home</Link></div>
-          <div><Link to="/About">Profile</Link></div>
-          <div><Link to="/Contact">Contact</Link></div>          
+          <div><Link to="/">Start</Link></div>
+          <div><Link to="/About">O Nas</Link></div>
+          <div><Link to="/Contact">Rozkład Jazdy</Link></div>          
           </div>
         </nav>
       </div>

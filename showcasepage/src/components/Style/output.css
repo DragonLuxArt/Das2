@@ -26,7 +26,7 @@ nav .navContainer div a:hover {
 
 footer {
   display: flex;
-  background-image: linear-gradient(to bottom right, #0B4343, silver);
+  background-image: linear-gradient(to bottom right, #0000, black);
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -59,7 +59,7 @@ footer .footContainer .icons a:hover {
 
 .App {
   display: flex;
-  background-image: url("../Content/images/freestyle_wallpaper.jpg");
+  background-image: url("../Content/images/OldBus.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -68,7 +68,7 @@ footer .footContainer .icons a:hover {
 }
 .App .titleMain {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 32%;
   color: white;
   font-family: "Poppins", sans-serif;
@@ -79,7 +79,7 @@ footer .footContainer .icons a:hover {
 }
 .App .subtitleMain {
   position: absolute;
-  top: 38%;
+  top: 46%;
   left: 40%;
   color: lightgreen;
   text-shadow: 2px 2px 2px black;
