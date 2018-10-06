@@ -2,7 +2,7 @@
   "name": "showcasepage",
   "version": "0.1.0",
   "private": true,
-  "homeepage": "https://xShadex.github.io/Das2/",
+  "homeepage": "https://xshadex.github.io/Das2/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.4",
     "@fortawesome/free-brands-svg-icons": "^5.3.1",
