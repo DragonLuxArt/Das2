@@ -34,11 +34,11 @@
       text-shadow: 2px 2px 2px black;
     }
 
-    .ipl-progress-indicator.available {
+    .progress-indicator.available {
       opacity: 0;
     }
 
-    .ipl-progress-indicator {
+    .progress-indicator {
       background-color: rgb(34, 32, 32);
       width: 100%;
       height: 100%;
@@ -51,7 +51,7 @@
       z-index: 9999;
     }
 
-    .insp-logo-frame {
+    .logo-frame {
       display: -webkit-flex;
       display: -moz-flex;
       display: flex;
@@ -67,7 +67,7 @@
       height: 98%;
     }
 
-    .insp-logo-frame-img {
+    .logo-frame-img {
       width: 112px;
       height: 112px;
       -webkit-align-self: center;
@@ -76,7 +76,7 @@
       border-radius: 50%;
     }
 
-    .ipl-progress-indicator-head {
+    .progress-indicator-head {
       background-color: #00facc;
       height: 4px;
       width: 30%;
@@ -86,8 +86,8 @@
       left: 35%;
     }
 
-    .ipl-progress-indicator .first-indicator,
-    .ipl-progress-indicator .second-indicator {
+    .progress-indicator .first-indicator,
+    .progress-indicator .second-indicator {
       background-color: rgb(15, 184, 173);
       bottom: 0;
       left: 0;
@@ -102,19 +102,19 @@
       transform: scaleX(0);
     }
 
-    .ipl-progress-indicator .first-indicator {
+    .progress-indicator .first-indicator {
       -webkit-animation: first-indicator 2000ms linear infinite;
       -moz-animation: first-indicator 2000ms linear infinite;
       animation: first-indicator 2000ms linear infinite;
     }
 
-    .ipl-progress-indicator .second-indicator {
+    .progress-indicator .second-indicator {
       -webkit-animation: second-indicator 2000ms linear infinite;
       -moz-animation: second-indicator 2000ms linear infinite;
       animation: second-indicator 2000ms linear infinite;
     }
 
-    .ipl-progress-indicator .insp-logo {
+    .progress-indicator .logo {
       animation: App-logo-spin infinite 20s linear;
       border-radius: 50%;
       -webkit-align-self: center;
@@ -228,12 +228,12 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-  <div class="ipl-progress-indicator" id="ipl-progress-indicator">
-    <div class="ipl-progress-indicator-head">
+  <div class="progress-indicator" id="ipl-progress-indicator">
+    <div class="progress-indicator-head">
       <div class="first-indicator"></div>
       <div class="second-indicator"></div>
     </div>
-    <div class="insp-logo-frame">
+    <div class="logo-frame">
       <h1 class="loadingTitle"> Zastanawiam sie...</h1>
     </div>
   </div>
