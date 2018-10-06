@@ -1,0 +1,157 @@
+nav {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+}
+nav .navContainer {
+  position: absolute;
+  right: 0;
+  padding-top: 28px;
+}
+nav .navContainer div {
+  padding: 0 95px 0px 0px;
+  display: inline;
+}
+nav .navContainer div a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  font-size: 1.4em;
+}
+nav .navContainer div a:hover {
+  color: black;
+}
+
+footer {
+  display: flex;
+  background-image: linear-gradient(to bottom right, #0000, black);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  color: white;
+  align-items: center;
+}
+footer .footContainer {
+  display: inline-flex;
+}
+footer .footContainer div {
+  font-size: 1.3em;
+  margin-left: 50px;
+  text-shadow: 2px 2px 2px black;
+}
+footer .footContainer .icons {
+  position: absolute;
+  right: 0;
+  font-size: 1.6em;
+  margin-right: 50px;
+}
+footer .footContainer .icons a {
+  text-decoration: none;
+  color: white;
+  margin-left: 8px;
+}
+footer .footContainer .icons a:hover {
+  color: black;
+}
+
+.App {
+  display: flex;
+  background-image: url("../Content/images/bus_photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+.App .titleMain {
+  position: absolute;
+  top: 40%;
+  left: 32%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 6em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+}
+.App .subtitleMain {
+  position: absolute;
+  top: 46%;
+  left: 40%;
+  color: lightgreen;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 3em;
+  align: center;
+}
+
+.About h1 {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+  text-align: justify;
+  text-align-last: center;
+}
+.About p {
+  position: absolute;
+  top: 54%;
+  left: 12%;
+  color: lightgreen;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  align: center;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.Contact h1 {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 4em;
+  text-shadow: 2px 2px 2px black;
+  z-index: 1;
+  text-align: justify;
+  text-align-last: center;
+}
+.Contact p {
+  position: absolute;
+  top: 54%;
+  left: 12%;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  align: center;
+}
+.Contact p a {
+  text-decoration: none;
+  color: lightgreen;
+}
+.Contact p a:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=output.css.map */
