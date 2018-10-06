@@ -31,7 +31,7 @@ class App extends Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename="/Das2">
       <Switch>
         <div className="App">
         <Header />
