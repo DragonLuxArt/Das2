@@ -12,18 +12,17 @@ class Contact extends Component {
       transitionEnter={false}
       transitionLeave={false}>
       <h1>
-      DAS :: Rozkład jazdy naszych linii<br/>
+      DAS :: Rozkład jazdy naszych linii:<br/>
       </h1>
       <p>
-      Prosze wybrać trasę:<br/>
-      Skoczów - Dębowiec centrum - Cieszyn<br/>
-      Cieszyn - Dębowiec Centrum - Skoczów<br/>
-      Cieszyn - Koniaków<br/>
-      Koniaków - Cieszyn<br/>
-      Kisielów - Dębowiec Centrum<br/>
-      Dębowiec Centrum - Kisielów<br/>
-      Cieszyn - Jaworzynka<br/>
-      Jaworzynka - Cieszyn<br/>
+      <a href="#">Skoczów - Dębowiec centrum - Cieszyn</a><br/>
+      <a href="#">Cieszyn - Dębowiec Centrum - Skoczów</a><br/>
+      <a href="#">Cieszyn - Koniaków</a><br/>
+      <a href="#">Koniaków - Cieszyn</a><br/>
+      <a href="#">Kisielów - Dębowiec Centrum</a><br/>
+      <a href="#">Dębowiec Centrum - Kisielów</a><br/>
+      <a href="#">Cieszyn - Jaworzynka</a><br/>
+      <a href="#">Jaworzynka - Cieszyn</a><br/>
       </p>
       </CSSTransitionGroup>
       </div>

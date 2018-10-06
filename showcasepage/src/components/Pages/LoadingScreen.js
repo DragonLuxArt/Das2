@@ -2,8 +2,7 @@ import React from "react";
 import "../Style/output.css"
 
 export default () => (
-  <div
-  >
+  <div className="LoadingScreen">
   <div class="progress-indicator" id="ipl-progress-indicator">
     <div class="progress-indicator-head">
       <div class="first-indicator"></div>

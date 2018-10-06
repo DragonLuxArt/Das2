@@ -59,7 +59,7 @@ footer .footContainer .icons a:hover {
 
 .App {
   display: flex;
-  background-image: url("../Content/images/OldBus.jpg");
+  background-image: url("../Content/images/bus_photo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -91,17 +91,27 @@ footer .footContainer .icons a:hover {
 
 .About h1 {
   position: absolute;
-  top: 40%;
-  left: 32%;
+  top: 42%;
+  left: 12%;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 2em;
+  font-size: 4em;
   text-shadow: 2px 2px 2px black;
   z-index: 1;
   text-align: justify;
   text-align-last: center;
-  background-image: linear-gradient(to bottom right, #0000, black);
+}
+.About p {
+  position: absolute;
+  top: 54%;
+  left: 12%;
+  color: lightgreen;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  align: center;
 }
 
 .example-appear {
@@ -115,8 +125,8 @@ footer .footContainer .icons a:hover {
 
 .Contact h1 {
   position: absolute;
-  top: 32%;
-  left: 25%;
+  top: 42%;
+  left: 12%;
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -125,21 +135,23 @@ footer .footContainer .icons a:hover {
   z-index: 1;
   text-align: justify;
   text-align-last: center;
-  background-image: linear-gradient(to bottom right, #0000, black);
 }
 .Contact p {
   position: absolute;
-  top: 40%;
-  left: 34%;
-  color: white;
+  top: 54%;
+  left: 12%;
+  text-shadow: 2px 2px 2px black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 1.8em;
-  text-shadow: 2px 2px 2px black;
-  z-index: 1;
-  text-align: justify;
-  text-align-last: center;
-  background-image: linear-gradient(to bottom right, #0000, black);
+  font-size: 2em;
+  align: center;
+}
+.Contact p a {
+  text-decoration: none;
+  color: lightgreen;
+}
+.Contact p a:hover {
+  color: white;
 }
 
 /*# sourceMappingURL=output.css.map */
