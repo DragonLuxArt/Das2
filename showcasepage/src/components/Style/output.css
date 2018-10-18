@@ -1,5 +1,7 @@
 nav {
   display: flex;
+  position: absolute;
+  top: 0;
   width: 100%;
   height: 80px;
   border-radius: 10px;
@@ -57,15 +59,6 @@ footer .footContainer .icons a:hover {
   color: black;
 }
 
-.App {
-  display: flex;
-  background-image: url("../Content/images/bus_photo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100vh;
-  max-width: 100%;
-}
 .App .titleMain {
   position: absolute;
   top: 40%;
@@ -89,6 +82,25 @@ footer .footContainer .icons a:hover {
   align: center;
 }
 
+.mainPage {
+  display: flex;
+  background-image: url("../Content/images/bus_photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+.About {
+  display: flex;
+  background-image: url("../Content/images/ONas_Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
 .About h1 {
   position: absolute;
   top: 42%;
