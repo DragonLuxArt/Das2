@@ -164,6 +164,15 @@ footer .footContainer .icons a:hover {
   transition: opacity 0.5s ease-in;
 }
 
+.RozkladJazdy {
+  display: flex;
+  background-image: url("../Content/images/ONas_Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
 .RozkladJazdy h1 {
   position: absolute;
   top: 42%;
