@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { CSSTransitionGroup } from "react-transition-group";
 
-class Contact extends Component {
+class RozkladJazdy extends Component {
   render() {
     return (
-      <div className="Contact">
+      <div className="RozkladJazdy">
       <CSSTransitionGroup
       transitionName="example"
       transitionAppear={true}
@@ -30,4 +30,4 @@ class Contact extends Component {
   }
 }
 
-export default Contact;
+export default RozkladJazdy;
