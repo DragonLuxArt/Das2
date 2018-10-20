@@ -5,6 +5,7 @@ import Footer from "./components/Footer/footer";
 import MainPage from "./components/Pages/MainPage";
 import About from "./components/Pages/About";
 import RozkladJazdy from "./components/Pages/RozkladJazdy";
+import Kontakt from "./components/Pages/Kontakt"
 import "./components/Style/output.css";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -36,8 +37,9 @@ class App extends Component {
         <div className="App">
         <Header />
         <Route exact path="/" component={LoadingComponent(MainPage)} />
-        <Route exact path="/RozkladJazdy" component={LoadingComponent(RozkladJazdy)} />
         <Route exact path="/About" component={LoadingComponent(About)} />
+        <Route exact path="/RozkladJazdy" component={LoadingComponent(RozkladJazdy)} />
+        <Route exact path="/Kontakt" component={LoadingComponent(Kontakt)} />
         <Footer />
         </div>
       </Switch>

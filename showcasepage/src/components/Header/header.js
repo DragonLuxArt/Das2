@@ -11,7 +11,8 @@ class header extends Component {
           <div className="navContainer">
           <div><Link to="/">Start</Link></div>
           <div><Link to="/About">O Nas</Link></div>
-          <div><Link to="/RozkladJazdy">Rozkład Jazdy</Link></div>          
+          <div><Link to="/RozkladJazdy">Rozkład Jazdy</Link></div> 
+          <div><Link to="/Kontakt">Kontakt</Link></div>          
           </div>
         </nav>
       </div>
