@@ -387,7 +387,8 @@ footer .footContainer .icons a:hover {
   footer .footContainer {
     width: 100%;
     line-height: 2;
-    margin-bottom: 1px;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
   footer .footContainer div {
     font-size: 1em;
