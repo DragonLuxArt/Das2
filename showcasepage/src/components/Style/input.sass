@@ -87,7 +87,6 @@ footer
   max-width: 100%
 
 .About
-  display: flex
   background-image: url('../Content/images/ONas_Background.png')
   background-size: cover
   background-repeat: no-repeat
@@ -223,10 +222,10 @@ footer
 
   .App
     .titleMain
-      left: 28%
+      left: 26%
     .subtitleMain
       top: 49%
-      left: 38%
+      left: 36%
 
 
   .About
@@ -260,7 +259,7 @@ footer
       font-size: 1.6em
       top: 52%
  
-
+    
 
 @media only screen and (max-width: 801px)
   .App
@@ -298,21 +297,37 @@ footer
 
 @media only screen and (max-width: 751px)
   .App
-    .titleMain
+    .WraperLeft
+      min-width: 100%
+      min-height: 0%
+      border: 0px solid lightgreen
+      top: 25%
+      left: 10%
+    .WraperRight
+      min-width: 100%
+      min-height: 0%
+      border: 0px solid lightgreen
+      left: 10%
       top: 45%
-      left: 30%
+    .titleMain
+      top: 25%
+      left: 2%
       font-size: 3.0em
     .subtitleMain
-      top: 49%
-      left: 38%
-      font-size: 1.8em
+      top: 30%
+      left: 2%
+      font-size: 2.0em
+
+
+  .mainPage
+    background-image: url('../Content/images/ONas_Background.png')
 
       
   .About
     h1
-      font-size: 3.0em
+      font-size: 2.0em
       top: 15%
-      left: 30%
+      left: 25%
     .TextLeft
       top: 8%
       font-size: 1.0em
@@ -323,21 +338,24 @@ footer
 
   .RozkladJazdy
     h1
-      font-size: 1.6em
+      font-size: 1.2em
     p
       font-size: 1.0em
 
 
   .Kontakt
+    background-image: url('../Content/images/ONas_Background.png')
     h1
-      font-size: 1.6em
+      font-size: 1.2em
     p
-      font-size: 1.0em
+      font-size: 0.9em
 
 
   footer
     .footContainer
-      line-height: 1.5
+      width: 100%
+      line-height: 2.0
+      margin-bottom: 1px
       div
         font-size: 1.0em
       .icons

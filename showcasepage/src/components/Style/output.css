@@ -101,7 +101,6 @@ footer .footContainer .icons a:hover {
 }
 
 .About {
-  display: flex;
   background-image: url("../Content/images/ONas_Background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -248,11 +247,11 @@ footer .footContainer .icons a:hover {
 
 @media only screen and (max-width: 1366px) {
   .App .titleMain {
-    left: 28%;
+    left: 26%;
   }
   .App .subtitleMain {
     top: 49%;
-    left: 38%;
+    left: 36%;
   }
 
   .About h1 {
@@ -323,21 +322,39 @@ footer .footContainer .icons a:hover {
   }
 }
 @media only screen and (max-width: 751px) {
-  .App .titleMain {
+  .App .WraperLeft {
+    min-width: 100%;
+    min-height: 0%;
+    border: 0px solid lightgreen;
+    top: 25%;
+    left: 10%;
+  }
+  .App .WraperRight {
+    min-width: 100%;
+    min-height: 0%;
+    border: 0px solid lightgreen;
+    left: 10%;
     top: 45%;
-    left: 30%;
+  }
+  .App .titleMain {
+    top: 25%;
+    left: 2%;
     font-size: 3em;
   }
   .App .subtitleMain {
-    top: 49%;
-    left: 38%;
-    font-size: 1.8em;
+    top: 30%;
+    left: 2%;
+    font-size: 2em;
+  }
+
+  .mainPage {
+    background-image: url("../Content/images/ONas_Background.png");
   }
 
   .About h1 {
-    font-size: 3em;
+    font-size: 2em;
     top: 15%;
-    left: 30%;
+    left: 25%;
   }
   .About .TextLeft {
     top: 8%;
@@ -349,21 +366,26 @@ footer .footContainer .icons a:hover {
   }
 
   .RozkladJazdy h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   .RozkladJazdy p {
     font-size: 1em;
   }
 
+  .Kontakt {
+    background-image: url("../Content/images/ONas_Background.png");
+  }
   .Kontakt h1 {
-    font-size: 1.6em;
+    font-size: 1.2em;
   }
   .Kontakt p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 
   footer .footContainer {
-    line-height: 1.5;
+    width: 100%;
+    line-height: 2;
+    margin-bottom: 1px;
   }
   footer .footContainer div {
     font-size: 1em;
