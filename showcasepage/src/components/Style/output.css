@@ -384,11 +384,32 @@ footer .footContainer .icons a:hover {
     font-size: 0.9em;
   }
 
+  nav .HeaderLogo {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+  }
+  nav .HeaderLogo .Logo {
+    max-width: 40%;
+  }
+  nav .navContainer div {
+    padding: 0 15px 0px 0px;
+  }
+  nav .navContainer div a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    font-size: 0.5em;
+  }
+
+  footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   footer .footContainer {
     width: 100%;
     line-height: 2;
-    padding-top: 15px;
-    padding-bottom: 10px;
   }
   footer .footContainer div {
     font-size: 1em;
