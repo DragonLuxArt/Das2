@@ -325,17 +325,17 @@ footer .footContainer .icons a:hover {
 }
 @media only screen and (max-width: 751px) {
   .App .WraperLeft {
-    min-width: 100%;
+    min-width: 70%;
     min-height: 0%;
     border: 0px solid lightgreen;
     top: 25%;
-    left: 10%;
+    left: 22%;
   }
   .App .WraperRight {
-    min-width: 100%;
+    min-width: 70%;
     min-height: 0%;
     border: 0px solid lightgreen;
-    left: 10%;
+    left: 22%;
     top: 45%;
   }
   .App .titleMain {
